@@ -1,7 +1,7 @@
 #Misión kit segurp
 
 nombre=input('Nombre:').upper().strip()
-Kit=input('Tipo de kit:').lower().strip()
+kit=input('Tipo de kit:').lower().strip()
 autorizacion=input('Tiene autorización (si/no)').lower().strip()== 'si'
 try:
     cantidad=int(input('Cantidad de kits?: '))
