@@ -17,7 +17,6 @@ if ingresosproyectados>0:
 else:
     recomendacion='No lanzar'
 
-#salidadedatos
 
 
     
