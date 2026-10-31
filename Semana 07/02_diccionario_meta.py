@@ -3,6 +3,15 @@
 Un diccionario guarda campos con nombre; cada nombre es una clave.
 """
 
+persona = {
+    "nombre" : "Mariana",
+    "apellido" : "Rojas",
+    "rol" : "Estudiante",
+    "id" : "1-1111-1111",
+    "cursos" : ["Python", "Ciberseguridad", "CCNA"]
+}
+
+
 # A diferencia de ventas[1], aquí se usa una clave como sede["meta"].
 # La lista de ventas puede ser uno de los valores del diccionario.
 sede = {
@@ -17,9 +26,13 @@ print("Meta inicial:", sede["meta"])
 
 # La meta registrada cambió a 470000.
 # TODO: actualice solo el valor asociado con la clave "meta".
+sede['meta']=470000
+
+
 
 print("Meta corregida:", sede["meta"])
 print("Nombre después del cambio:", sede["nombre"])
+print('Total',sum(sede['ventas']))
 
 # Para explicar: ¿por qué el nombre y las ventas siguen iguales?
 # Para comprobar: la meta pasa de 450000 a 470000.
